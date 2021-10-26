@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//	Soctemp: print Raspberry Pi system-on-chip temperature.
-//	Written by Benjamin Roeser
+// Soctemp: print Raspberry Pi system-on-chip temperature.
 
 int main() 
 {
