@@ -8,7 +8,7 @@ Soctemp can be run by the watch command in order to monitor the temperature of a
 watch -n1 soctemp
 ~~~
 
-# Compiling and installing soctemp
+## Compiling and installing soctemp
 It can be compiled and installed to `/usr/local/bin` or `/home/$USER/bin` using the following commands:  
 ~~~
 cc soctemp.c -o soctemp
