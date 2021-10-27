@@ -8,7 +8,7 @@ It works by reading the contents of `/sys/class/thermal/thermal_zone0/temp`, whi
 watch -n1 soctemp
 ~~~
 
-## Compiling and installing `soctemp`
+## Compiling and installing Soctemp
 It can be compiled and installed to `/usr/local/bin` or `/home/$USER/bin` using the following commands:  
 ~~~
 cc soctemp.c -o soctemp
