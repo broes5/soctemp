@@ -4,13 +4,13 @@
 It works by reading the contents of `/sys/class/thermal/thermal_zone0/temp`, which contains a Raspberry Pi's SoC temperature in milli-degrees celsius, converts it to celsius and then prints it to the terminal.
 
 `soctemp` can be run by the `watch` command in order to monitor the temperature of a Pi's SoC continusly using:  
-~~~ shell
+~~~shell
 watch -n1 soctemp
 ~~~
 
 ## Compiling and installing Soctemp
 It can be compiled and installed to `/usr/local/bin` or `/home/$USER/bin` using the following commands:  
-~~~ shell
+~~~shell
 cc soctemp.c -o soctemp
 sudo mv soctemp /usr/local/bin
 ~~~
